@@ -40,7 +40,7 @@ Frontend Updates UI & Circuit
 ### 1️⃣ Install Frontend Dependencies
 
 ```powershell
-cd "d:\Food Freshness Simulation"
+# from the project root
 npm install
 ```
 
@@ -90,7 +90,7 @@ You need **3 terminals** running simultaneously:
 #### Terminal 1: Python Service (Port 5000)
 
 ```powershell
-cd "d:\Food Freshness Simulation\python-service"
+cd python-service
 .venv\Scripts\Activate.ps1
 python app.py
 ```
@@ -104,7 +104,7 @@ python app.py
 #### Terminal 2: Backend API (Port 3001)
 
 ```powershell
-cd "d:\Food Freshness Simulation\backend"
+cd backend
 npm start
 ```
 
@@ -117,7 +117,7 @@ Python service URL: http://localhost:5000
 #### Terminal 3: Frontend Dev Server (Port 5173)
 
 ```powershell
-cd "d:\Food Freshness Simulation"
+# from the project root
 npm run dev
 ```
 
